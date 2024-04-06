@@ -51,7 +51,7 @@ app.use("/customer/auth/*", function auth(req,res,next){
      }
 });
 
-app.post("/login", (req,res) => {
+app.post("/customer/login", (req,res) => {
     const username = req.body.username;
     const password = req.body.password;
   
